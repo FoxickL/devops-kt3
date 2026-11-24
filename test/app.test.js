@@ -48,3 +48,5 @@ describe('HTTP routes', () => {
     expect(response.body).toEqual({ status: 'ok' });
   });
 });
+
+test('intentional CI failure', () => { expect(true).toBe(false); });
